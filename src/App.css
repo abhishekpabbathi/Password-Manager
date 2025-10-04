@@ -1,0 +1,313 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bg-container {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-color: #c3caea;
+  align-items: flex-start;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+.password-manager-logo {
+  height: 30px;
+  width: 130px;
+  margin-bottom: 10px;
+}
+.details-entry-container {
+  height: 45vh;
+  width: 90vw;
+  border-radius: 10px;
+  background-color: #5763a5;
+  background-size: cover;
+}
+.head-inputs-button-container {
+  background-color: #454f84;
+  height: 80%;
+  width: 50%;
+  border-radius: 10px;
+  gap: 10px;
+
+  display: flex;
+  align-items: flex-start;
+}
+
+.details-entry-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 330px;
+}
+.head-inputs-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: left;
+  padding: 20px;
+}
+.title {
+  font-size: 20px;
+  color: white;
+}
+.image-input-container {
+  height: 30px;
+  width: 90%;
+  border-radius: 5px;
+  background-color: white;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  gap: 30px;
+}
+.Website-input::placeholder {
+  color: #b6c3ca;
+}
+.Website-input:focus {
+  color: black;
+}
+.Website-input {
+  color: black;
+  padding-left: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  height: 30px;
+  width: 80%;
+  border: none;
+
+  outline: none; /* removes blue border on click */
+}
+.website-img {
+  height: 30px;
+  width: 30px;
+}
+.vertical-line {
+  height: 60px;
+  width: 3px;
+  background-color: #454f84;
+}
+.add-button {
+  cursor: pointer;
+  height: 39px;
+  width: 150px;
+  background-color: #0b69ff;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 4px 6px rgba(227, 224, 224, 0.3);
+  transition:
+    trasform 0.2s ease,
+    background-color 0.2s ease-in;
+}
+.add-button:hover {
+  transform: scale(1.1);
+  background-color: #1f6bc1;
+}
+.add-button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: end;
+  width: 90%;
+  height: 50px;
+}
+.results-container {
+  height: 39vh;
+  width: 90vw;
+  border-radius: 10px;
+  background-color: #5763a5;
+  margin-top: 10px;
+}
+.heading-count-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+.counter-heading {
+  color: white;
+  font-size: 20px;
+}
+.count {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  color: white;
+
+  border: 1px solid rgb(247, 246, 246);
+  font-size: 20px;
+  justify-content: center;
+
+  display: flex;
+  align-items: center;
+}
+.search-image-input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 10px;
+  gap: 30px;
+  border-radius: 5px;
+  height: 40px;
+}
+.bottom-results-search-input {
+  color: #010411;
+  font-size: 18px;
+  font-weight: bold;
+  height: 40px;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.top-section-results-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-top: 5px;
+}
+.hr {
+  margin-left: 65px;
+  height: 2px;
+  width: 91.4%;
+  background-color: #c3caea;
+}
+.show-password-head-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  gap: 20px;
+  align-items: flex-end;
+}
+.show-password-head {
+  color: wheat;
+  font-size: 15px;
+  margin-right: 60px;
+  margin-top: 5px;
+
+  display: flex;
+  flex-direction: row;
+}
+.search-image {
+  height: 25px;
+  width: 25px;
+  margin-left: 15px;
+}
+.show-password-search-vertial-line {
+  height: 40px;
+  width: 3px;
+  background-color: #5763a5;
+}
+@media screed and (max-width: 768px) {
+}
+@media screed and (min-width: 769px) {
+}
+.password-manager-image-sm {
+  display: none;
+}
+.password-manager-image-lg {
+  height: 80%;
+  width: 40%;
+}
+.checkbox {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  box-shadow: 2px 4px 6px rgba(227, 224, 224, 0.3);
+  transition:
+    trasform 0.3s ease,
+    background-color 0.2s ease-in;
+}
+.checkbox:hover {
+  transform: scale(1.1);
+  background-color: #1f6bc1;
+}
+.no-passwords-image {
+  height: 170px;
+  width: 360px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.passwords-no-passwords-image-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-left: 70px;
+  gap: 10px;
+}
+.each-list-container {
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 250px;
+  border: 2px solid #c3caea;
+  border-radius: 5px;
+}
+.profile {
+  height: 30px;
+  width: 30px;
+  border-radius: 44px;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.delete-image {
+  height: 30px;
+  width: 30px;
+}
+.website-name-password-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: white;
+  height: 50px;
+  width: 100px;
+}
+.stars {
+  height: 20px;
+  width: 90px;
+}
+.delete-button {
+  border: none;
+  background-color: transparent;
+}
+.img-no-password {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
