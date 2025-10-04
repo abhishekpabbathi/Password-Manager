@@ -2,6 +2,7 @@
   "name": "password-manager",
   "private": true,
   "version": "1.0.0",
+  "homepage": "https://<your-github-username>.github.io/<repo-name>",
   "engines": {
     "node": "^10.13 || 12 || 14 || 15",
     "npm": ">=6"
@@ -13,7 +14,8 @@
     "chalk": "4.1.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
-    "uuid": "8.3.2"
+    "uuid": "8.3.2",
+    "gh-pages": "^5.0.0"
   },
   "devDependencies": {
     "eslint-config-airbnb": "18.2.1",
@@ -32,7 +34,9 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix src/",
     "format": "prettier --write \"./src\"",
-    "run-all": "npm-run-all --parallel test lint:fix"
+    "run-all": "npm-run-all --parallel test lint:fix",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "lint-staged": {
     "*.js": [
