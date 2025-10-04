@@ -1,8 +1,8 @@
 {
-  "name": "password-manager",
+  "name": "Password-Manager",
   "private": true,
   "version": "1.0.0",
-  "homepage": "https://<your-github-username>.github.io/<repo-name>",
+  "homepage": "https://abhishekpabbathi.github.io/Password-Manager" ,
   "engines": {
     "node": "^10.13 || 12 || 14 || 15",
     "npm": ">=6"
