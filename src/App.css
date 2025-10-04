@@ -111,9 +111,7 @@ body {
   border: none;
   border-radius: 5px;
   box-shadow: 2px 4px 6px rgba(227, 224, 224, 0.3);
-  transition:
-    trasform 0.2s ease,
-    background-color 0.2s ease-in;
+  transition: trasform 0.2s ease, background-color 0.2s ease-in;
 }
 .add-button:hover {
   transform: scale(1.1);
@@ -236,9 +234,7 @@ body {
   height: 20px;
   width: 20px;
   box-shadow: 2px 4px 6px rgba(227, 224, 224, 0.3);
-  transition:
-    trasform 0.3s ease,
-    background-color 0.2s ease-in;
+  transition: trasform 0.3s ease, background-color 0.2s ease-in;
 }
 .checkbox:hover {
   transform: scale(1.1);
